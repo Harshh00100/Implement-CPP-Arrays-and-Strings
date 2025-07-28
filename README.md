@@ -12,19 +12,19 @@ This program takes the number of elements as input, dynamically creates an array
 
 
 Algorithm:
-Step 1: Start
-Step 2: Declare an integer variable b to store the number of elements
-Step 3: Prompt the user to enter the number of elements
-Step 4: Read the value of b
-Step 5: Declare an integer array a of size b
-Step 6: Compute the number of elements in array a using sizeof(a)/sizeof(int) and store it in o
-Step 7: Repeat steps 8–9 for i from 0 to o - 1
-Step 8: Prompt the user to input element number i+1
-Step 9: Read the value into array element a[i]
-Step 10: Display the message "elements are: "
-Step 11: Repeat step 12 for i from 0 to o - 1
-Step 12: Output the element a[i] followed by a space
-Step 13: End
+- Start
+- Declare an integer variable b to store the number of elements
+- Prompt the user to enter the number of elements
+- Read the value of b
+- Declare an integer array a of size b
+- Compute the number of elements in array a using sizeof(a)/sizeof(int) and store it in o
+- Repeat steps 8–9 for i from 0 to o - 1
+- Prompt the user to input element number i+1
+- Read the value into array element a[i]
+- Display the message "elements are: "
+- Repeat step 12 for i from 0 to o - 1
+- Output the element a[i] followed by a space
+- End
 
 
 # Program-2 Searching an element in array
