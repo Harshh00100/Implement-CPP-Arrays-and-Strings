@@ -33,14 +33,15 @@ Explanatiom of code:
 This program searches for a specific number in a fixed array of 10 integers. The user is prompted to enter a number to search. The program compares the input with each element of the array using a for loop. If the number is found, it prints the position and exits early using break. A flag variable y is used to track whether the number was found. If not found, a corresponding message is displayed. It demonstrates simple linear search.
 
 Algorithm:
-Step 1: Start
-Step 2: Declare and initialize array
-Step 3: Prompt and read the search element
-Step 4: Set a flag to track if found
-Step 5: Loop through array to compare elements
-Step 6: If element matches, show position and exit loop
-Step 7: After loop, check flag and show "not found" if needed
-Step 8: End
+- Start
+- Declare & initialize array
+- Input search element
+- Set found = false
+- Loop to compare array elements
+- If match → show position & break
+- If not found → show message
+- End
+
 
 # Program-3 Calculating sum and avg of the elements in Array
 
