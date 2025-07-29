@@ -15,6 +15,6 @@ int main(){
 }
 
 /*Output : 
-enter the string: harsh 
-hsrah
+enter the string: harsh
+reversed string is: hsrah
 */
