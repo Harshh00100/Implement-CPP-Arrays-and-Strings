@@ -132,9 +132,28 @@ Algorithm:
 
 Explanation of the code:
 
+This C++ program checks whether an entered string is a palindrome. It starts by reading a string into variable a, then calculates its length and stores it in v. Using a for loop, it compares characters from the front and back: a[i] with a[v - i - 1]. If any mismatch is found, it sets flag d = 5 and exits the loop. After the loop, it checks if d is still zero. If yes, it means the string reads the same forward and backward, so it prints “string is palindrome.” Otherwise, it prints “string is not palindrome.”
 
 
 Algorithm:
 
+- Start
+- Declare a string variable a
+- Prompt user for input
+- Read string input into a
+- Initialize flag variable
+- Set integer d = 0 to track palindrome status
+- Get string length
+- Store length of string a in variable v
+- Loop through the first half of the string
+- Compare a[i] with a[v - i - 1]
+- If they are not equal:
+- Set d = 5 (non-zero indicates not a palindrome)
+- Break out of the loop
+- Check result using if else
+- End
 
 
+# Conclusion
+
+Implementing arrays and strings in C++ is fundamental for handling collections of data and text efficiently. Arrays offer fixed-size, index-based storage, ideal for numeric and structured data operations, while strings provide dynamic and intuitive manipulation for textual data. Understanding their differences—such as memory allocation, syntax, and built-in functionalities—empowers programmers to choose the right tool for a given task. With C++'s support for both C-style arrays and modern string classes, developers gain flexibility, control, and performance. Mastering these concepts builds a strong foundation for solving real-world problems and developing more complex programs with confidence and precision.
