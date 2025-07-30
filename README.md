@@ -78,10 +78,12 @@ Algorithm:
 # Program-5 String printing
 
 Explanation of the code:
+
 This C++ code demonstrates four ways to declare and display strings. It defines three character arrays (a, b, c) using C-style string formats with explicit or implicit null terminators, and one C++ string object d. The program prints a heading followed by each string. All outputs display correctly because each format properly terminates with '\0'. This showcases the flexibility in string declaration, comparing manual character arrays and modern string usage. Useful for grasping string handling in C++.
 
 
 Algorithm:
+
 - Start
 - Initialize character arrays and string:
 - Display heading
@@ -89,8 +91,30 @@ Algorithm:
 - End
 
 
-# Program-6 
+
+# Program-6 String concatination
+
+Explanation of the code:
+
+This C++ program takes two user-input strings and combines them. It begins by declaring three string variables: a, b, and c. After prompting the user, it stores two inputs in a and b. It then concatenates a and b with a space between and assigns the result to c. Finally, it displays the concatenated string. This code is a simple illustration of using the + operator for string manipulation and showcases basic input/output operations in C++.
+
+Algorithm:
+
+- Start
+- Declare String Variables
+- Prompt for Input
+- Concatenate Strings
+- Display Result
+- End
 
 
+# Program-7 String reverse
+
+
+Explanation of the code:
+
+
+
+Algorithm:
 
 
