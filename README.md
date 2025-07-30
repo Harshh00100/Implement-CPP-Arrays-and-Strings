@@ -75,6 +75,21 @@ Algorithm:
 - Display the maximum and minimum values
 - End
 
+# Program-5 String printing
+
+Explanation of the code:
+This C++ code demonstrates four ways to declare and display strings. It defines three character arrays (a, b, c) using C-style string formats with explicit or implicit null terminators, and one C++ string object d. The program prints a heading followed by each string. All outputs display correctly because each format properly terminates with '\0'. This showcases the flexibility in string declaration, comparing manual character arrays and modern string usage. Useful for grasping string handling in C++.
+
+
+Algorithm:
+- Start
+- Initialize character arrays and string:
+- Display heading
+- Print each string variable
+- End
+
+
+# Program-6 
 
 
 
