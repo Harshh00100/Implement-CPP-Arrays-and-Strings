@@ -113,8 +113,28 @@ Algorithm:
 
 Explanation of the code:
 
+This C++ program reverses a user-input string. It declares a string variable a, reads input, and stores its length in v. Then it displays a message and loops from i = 0 to v, printing a(v - i). However, this logic accesses one character beyond valid range, as a[v] is out of bounds. To properly reverse the string, the loop should print a(v - i - 1). It illustrates input handling and string manipulation.
 
 
 Algorithm:
+
+- Start
+- Declare a string variable a
+- Prompt the user
+- Take input
+- Read the string into variable a
+- Get the length of the string
+- Reverse and display characters using loop
+- End
+
+
+# Program-8 Pallindrome of the string
+
+Explanation of the code:
+
+
+
+Algorithm:
+
 
 
