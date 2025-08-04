@@ -1,6 +1,6 @@
 //Harsh kumar
 //24070123146
-//B3e <iostream>
+//B3
 #include <iostream>
 using namespace std;
 int main(){
@@ -22,4 +22,5 @@ harsh
 enter the second string
 kumar
 the concatenated string is harsh kumar
+
 */
